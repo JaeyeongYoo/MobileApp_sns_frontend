@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PA_2016311981</string>
+    <string name="inskkagram">inskkagram</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="you_don_t_have_a_account">You don\'t have a account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="e_mail">E-mail</string>
+    <string name="pub">Public Posts</string>
+    <string name="per">Personal Posts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content">Content</string>
+    <string name="tags">Tags</string>
+    <string name="make_public">Make Public</string>
+    <string name="create_post">CREATE POST</string>
+</resources>

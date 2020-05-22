@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/billabong"
+        android:text="@string/inskkagram"
+        android:textColor="#FFF"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:background="@drawable/square_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/login"
+        android:fontFamily="@font/gillsansb"
+        android:textSize="15sp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/you_don_t_have_a_account"
+            android:fontFamily="@font/gillsans"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:fontFamily="@font/gillsansb"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

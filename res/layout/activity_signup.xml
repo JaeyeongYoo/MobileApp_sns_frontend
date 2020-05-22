@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:fontFamily="@font/gillsansb"
+        android:textSize="40sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:fontFamily="@font/gillsans"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:fontFamily="@font/gillsans"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:fontFamily="@font/gillsans"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:fontFamily="@font/gillsans"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:fontFamily="@font/gillsans"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/fn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:fontFamily="@font/gillsans"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        android:fontFamily="@font/gillsans"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/bd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="date"
+        android:fontFamily="@font/gillsans"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/e_mail"
+        android:fontFamily="@font/gillsans"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/gillsans"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"
+        />
+
+    <Button
+        android:id="@+id/signupbt"
+        android:background="@drawable/square_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/sign_up"
+        android:fontFamily="@font/gillsansb"
+        android:textSize="15sp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
